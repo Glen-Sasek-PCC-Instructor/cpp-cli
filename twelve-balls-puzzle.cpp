@@ -66,6 +66,8 @@ int main() {
     eatline(cin);
     if('n' == tolower(c)) {
       break;
+    } else {
+      system("clear");
     }
   }
   return 0;
